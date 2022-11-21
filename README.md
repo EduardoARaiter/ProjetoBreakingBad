@@ -1,3 +1,3 @@
 # ProjetoBreakingBad
-Um jogo zoado do Breaking Bad
-Eduardo Raiter 1125096
+Um jogo zoado do Breaking Bad; /n
+Aluno: Eduardo Raiter 1125096
