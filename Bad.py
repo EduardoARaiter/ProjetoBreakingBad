@@ -39,7 +39,7 @@ def jogar():
     heizenX = 500
     heizenY = 400
     movimentoheizenX = 0
-    larguraheizen = 120
+    larguraheizen = 110
     alturaheizen = 183
     alturahank = 110
     largurahank = 126
@@ -97,10 +97,10 @@ def jogar():
             pixelYhank = list(range(posicaohankY, posicaohankY+alturahank))
 
             colisaoY = len(list(set(pixelYhank) & set(pixelsYheizen) ))
-            if colisaoY > 0:
+            if colisaoY > 10:
                 colisaoX = len(list(set(pixelXhank) & set(pixelsXheizen) ))
                 print(colisaoX)
-                if colisaoX > 14:
+                if colisaoX > 10:
                     morreu()
                     jogando=False
                     pygame.mixer.music.stop()
