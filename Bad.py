@@ -53,8 +53,6 @@ def jogar():
 
    
 
-    soundGameOver = pygame.mixer.Sound("assets/gameover.mp3")
-    soundGameOver.set_volume(1)
     while True:
         for event in gameEvents.get():
             if event.type == pygame.QUIT:
