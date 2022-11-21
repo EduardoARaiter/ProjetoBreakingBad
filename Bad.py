@@ -80,6 +80,7 @@ def jogar():
             else:
                 posicaohankY =posicaohankY + velocidadehank
 
+            print(largura-larguraheizen)
             if heizenX + movimentoheizenX >0 and heizenX + movimentoheizenX< largura-larguraheizen:
                 heizenX = heizenX + movimentoheizenX
             gameDisplay.fill(branco)
@@ -99,7 +100,7 @@ def jogar():
             if colisaoY > 0:
                 colisaoX = len(list(set(pixelXhank) & set(pixelsXheizen) ))
                 print(colisaoX)
-                if colisaoX > 45:
+                if colisaoX > 25:
                     morreu()
                     jogando=False
                     pygame.mixer.music.stop()
