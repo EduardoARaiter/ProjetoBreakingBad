@@ -75,6 +75,9 @@ while gaming:
     
 
 
+
+    gameDisplay.fill(preto)
+
     mostrarHeizen(heizenX,heizenY)
     
     
