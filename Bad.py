@@ -41,8 +41,8 @@ def jogar():
     movimentoheizenX = 0
     larguraheizen = 275
     alturaheizen = 183
-    alturahank = 210
-    largurahank = 240
+    alturahank = 110
+    largurahank = 126
     posicaohankX = 400
     posicaohankY = -240
     velocidadehank = 1
@@ -109,4 +109,4 @@ def jogar():
         pygameDisplay.update()
         clock.tick(60)
 
-    jogar()
+jogar()
